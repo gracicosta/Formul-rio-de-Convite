@@ -1,6 +1,6 @@
 # 🎉 Festivite – Estudo de Estruturação e Estilização de Inputs
 
-O **Festivite** é um projeto exclusivamente educacional, desenvolvido para praticar **estruturação de formulários em HTML** e **estilização avançada de inputs com CSS puro**.
+O **Festivite** é um projeto exclusivamente educacional, desenvolvido para praticar **estruturação de formulários em HTML** e **estilização avançada de inputs com CSS puro**
 
 > ⚠️ Este projeto não possui backend e não tem finalidade comercial.  
 > O foco é apenas aprendizado de front-end.
