@@ -1,0 +1,38 @@
+aside {
+    position: relative;
+    isolation: isolate;
+
+    padding: 32px;
+    overflow: hidden;
+}
+
+aside > img {
+    position: absolute;
+    display: block;
+    inset: 0;
+    z-index: -1;
+    
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+.header {
+    margin-right: 3rem;
+
+    & img {
+        width: 46px;
+        height: 60px;
+        padding-bottom: 16px;
+    }
+
+    & p {
+        font: var(--body-md);
+        color: var(--text-heading);
+        line-height: 2;
+    }
+}
+
+

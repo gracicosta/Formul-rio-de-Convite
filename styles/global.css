@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    /* Cores */
+
+    --brand-light: #59B2FF;
+    --brand-mid: #3487CF;
+    --brand-dark: #1D6FB6;
+
+    --accent-purple: #B259FF;
+    --accent-fuschia: #FF59F9;
+    --accent-pink: #FF598B;
+    --accent-orange: #FF8B59;
+    --accent-yellow: #FFCD59;
+
+    --accent-lime: #E1FF59;
+    --accent-green: #59FF91;
+    --accent-cyan: #59FFF9;
+    --accent-navy: #6A59FF;
+
+    --feedback-danger: #FF5959;
+
+    --input-base: #1C1F21;
+    --input-stroke: #363B40;
+    --input-placeholder: #869198;
+
+    --shape-background: #131516;
+    --shape-body: #212427;
+    --shape-button: #2D3136;
+    --shape-hover: #383D42;
+
+    --text-body: #C8CDD0;
+    --text-heading: #F9F9F9;
+
+    /* Texto */
+
+    --font-family-leckerli: "Leckerli One", cursive;
+    --font-family-baloo: "Baloo 2", sans-serif;
+    --font-family-open: "Open Sans", sans-serif;
+
+    --logo: 400 40px/1 var(--font-family-leckerli);
+
+    --heading-md: 700 28px/1 var(--font-family-baloo);
+    --heading-sm: 700 18px/1 var(--font-family-baloo);
+
+    --body-md: 300 16px/1 var(--font-family-open);
+    --body-md-placeholder: 400 16px/1 var(--font-family-open);
+    --body-sm: 300 14px/1 var(--font-family-open);
+    --body-xs: 400 12px/1 var(--font-family-open);
+}
+
+
+body {
+    overflow: hidden;
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+    padding: 20px;
+
+    background-color: var(--shape-background);
+}
+
+h1 {
+    font: var(--logo);
+    color: var(--accent-pink);
+}
+
+h2 {
+    font: var(--heading-md);
+    color: var(--text-heading);
+}
+
+aside, main {
+    border-radius: 10px;
+}
+
